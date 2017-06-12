@@ -1,0 +1,15 @@
+.. code:: console
+
+   $ finger jwilk
+   Login: jwilk                            Name: Jakub Wilk
+   Directory: /srv/home/users/jwilk        Shell: /bin/bash
+   Last login Fri Jul 14 02:40 2017 (UTC) on pts/0 from 192.168.0.106
+   Mail forwarded to jwilk@jwilk.net
+
+   No mail.
+   No Plan.
+
+   $ finger jwilk | finger2authors 
+   jwilk = Jakub Wilk <jwilk@jwilk.net>
+
+.. vim:ft=rst ts=3 sts=3 sw=3 et
