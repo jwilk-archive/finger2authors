@@ -9,7 +9,7 @@
    No mail.
    No Plan.
 
-   $ finger jwilk | finger2authors 
+   $ finger jwilk | finger2authors
    jwilk = Jakub Wilk <jwilk@jwilk.net>
 
 .. vim:ft=rst ts=3 sts=3 sw=3 et
