@@ -1,0 +1,13 @@
+dist: trusty
+sudo: false
+language: perl
+perl:
+- "5.8"
+- "5.26"
+install:
+- python -m pip install --user pygments restructuredtext-lint
+script:
+- ./finger2authors < /dev/null
+- restructuredtext-lint --encoding=UTF-8 README
+
+# vim:ts=2 sts=2 sw=2 et
